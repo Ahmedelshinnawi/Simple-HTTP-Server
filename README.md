@@ -22,7 +22,7 @@ requests on port 8080 and responds with a simple "Hello" message.
   5. The connection is closed after sending the response.
  
 ## Code Highlights
-  Key components of the server:
+  ### Key components of the server:
   - ServerSocket: Listens for incoming connections.
   - Socket: Handles the connection to the client.
   - InputStreamReader and BufferedReader: Read the incoming request data.
@@ -42,13 +42,12 @@ requests on port 8080 and responds with a simple "Hello" message.
 4. Open a web browser or use a tool like curl to send a reques
    - Browser: Navigate to ``http://localhost:8080/``.
    - Curl: Run curl http://localhost:8080 in your terminal.
-     
-### The server will print the incoming request headers to the console and respond with:
+   #### The server will print the incoming request headers to the console and respond with:
 ``` 
 Oh, Hi There!
 ```
 ## Example Output
-#### Console Output(Server Side)
+#### Console Output (Server Side)
 ```
 Server is Running on Port 8080...
 GET / HTTP/1.1
