@@ -39,7 +39,7 @@ requests on port 8080 and responds with a simple "Hello" message.
    ```bash
    java HttpServer
    ```
-4. Open a web browser or use a tool like curl to send a reques
+4. Open a web browser or use a tool like curl to send a request
    - Browser: Navigate to ``http://localhost:8080/``.
    - Curl: Run curl http://localhost:8080 in your terminal.
    #### The server will print the incoming request headers to the console and respond with:
